@@ -308,9 +308,8 @@ export default function AdminAuth({ onSuccess, onCancel }: AdminAuthProps) {
                   value={secretCode}
                   onChange={(e) => setSecretCode(e.target.value)}
                   className="w-full px-3 py-2 bg-white border border-gray-200 focus:border-amber-500 rounded-lg text-xs transition-all outline-none font-mono"
-                  required
-          
-
+                  required/>
+                </div>
               <button
                 type="submit"
                 className="w-full py-3.5 bg-gray-900 hover:bg-gray-950 text-white font-bold text-sm rounded-xl transition-all shadow-md flex items-center justify-center gap-2 cursor-pointer mt-6"
