@@ -309,11 +309,7 @@ export default function AdminAuth({ onSuccess, onCancel }: AdminAuthProps) {
                   onChange={(e) => setSecretCode(e.target.value)}
                   className="w-full px-3 py-2 bg-white border border-gray-200 focus:border-amber-500 rounded-lg text-xs transition-all outline-none font-mono"
                   required
-                />
-                <span className="text-[9px] text-gray-400 leading-relaxed block mt-1">
-                  * Faqat vakolatli adminlar uchun. Sinov xavfsizlik kodi: <span className="font-mono font-bold text-amber-600">JAVOHIR2026</span>
-                </span>
-              </div>
+          
 
               <button
                 type="submit"

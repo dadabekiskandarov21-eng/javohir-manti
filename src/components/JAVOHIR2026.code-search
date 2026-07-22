@@ -1,0 +1,14 @@
+# Query: AdminAuth.tsx
+# ContextLines: 1
+
+3 results - 1 file
+
+src/components/JAVOHIR2026.code-search:
+   6  src/components/JAVOHIR2026.code-search:
+   7:    1: # Query: AdminAuth.tsx
+   8     2  # ContextLines: 1
+
+  
+  14    10    7    5  
+  15:   11:   8:   6: src/components/AdminAuth.tsx:
+  16    12    9    7     80      // Security Secret code validation to make it secure from public
